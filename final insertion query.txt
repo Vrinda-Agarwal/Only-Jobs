@@ -1,0 +1,495 @@
+
+#1 
+#select  * from Project
+insert into
+    Project
+values
+    (
+        1,
+        'Research',
+        'Creating a 3d model from a 2d image'
+    ),
+    (2, 'Research', 'Decision making'),
+    (
+        3,
+        'Engineering',
+        'Speech Detection - Detect from which region a person is'
+    ),
+    (4, 'Engineering', 'Enhance User Experience'),
+    (
+        5,
+        'Research',
+        'Computer Graphics - Making computer graphics look realistic'
+    ),
+    (
+        6,
+        'Development',
+        'GTA 8 a very popular open world game'
+    ),
+    (7, 'Development', 'Red Dead Redemption 3'),
+    (
+        8,
+        'Engineering',
+        'Making a robot who has emotions'
+    ),
+    (
+        9,
+        'Machine Learning',
+        'Remove from a model all the traces of a selected data point'
+    ),
+    (
+        10,
+        'Machine Learning',
+        'Using Reinforcement Learning for choosing an Ansatz for Variational Algorithms'
+    ),
+    (
+        11,
+        'Machine Learning',
+        'Transformer Conversational Chatbot in Python using TensorFlow 2.0'
+    ),
+    (12, 'Data Science', 'Fake news Detection');
+    select * from 
+
+--------------------------------------------------------------------------------------------------------------
+#2
+#select  * from Fields
+insert into
+    Fields
+values
+    (1, 'Computer Vision'),
+    (2, 'Game Theory'),
+    (3, 'Natural Language Processing'),
+    (4, 'User Experience Development'),
+    (5, 'Game Development'),
+    (6, 'Robotics'),
+    (7, 'Machine Unlearning'),
+    (8, 'Reinforcement Learning'),
+    (9, 'Quantum Machine Learning'),
+    (10, 'Data Science');
+
+--------------------------------------------------------------------
+#3
+#select * from Project_Field
+insert into
+    Project_Field
+values
+    (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 1),
+    (6, 5),
+    (7, 5),
+    (8, 6),
+    (9, 7),
+    (10, 8),
+    (11, 9),
+    (12, 10);
+
+---------------------------------------------------------------------
+#4
+#select  * from Institutes
+insert into
+    Institutes
+values
+    (1, 'IIITH', 'University', 1),
+    (2, 'IIITB', 'University', 9),
+    (13, 'Microsoft', 'Company', 3),
+    (3, 'Qualcomm', 'Company', 9),
+    (4, 'IITB', 'University', 2),
+    (5, 'IIITD', 'University', 5),
+    (6, 'Google', 'Company', 4),
+    (7, 'Rockstar North', 'Company', 6),
+    (8, 'Rockstar South', 'Company', 7),
+    (9, 'IITD', 'University', 8),
+    (10, 'MIT', 'University', 10),
+    (11, 'IIITV', 'University', 11),
+    (12, 'Uber', 'Company', 12);
+
+------------------------------------------------------------------
+
+#5
+#select * from Jobs
+insert into
+    Jobs
+values
+    (
+        4001,
+        'Development of GTA 8',
+        6,
+        5000000,
+        '2020-10-10',
+        '2022-10-09',
+        'Software Developer',
+        2
+    ),
+    (
+        4002,
+        'Should be comfortable with Data science',
+        12,
+        2500000,
+        '2019-03-09',
+        '2022-10-07',
+        'Researcher',
+        3
+    ),
+    (
+        4003,
+        'Should be comfortable with theoretical idea of machine learning',
+        3,
+        2000000,
+        '2018-10-10',
+        '2022-10-10',
+        'Researcher',
+        4
+    ),
+    (
+        4004,
+        'Should be comfortable with robotics',
+        9,
+        1500000,
+        '2017-08-09',
+        '2019-10-10',
+        'Researcher',
+        2
+    );
+
+----------------------------------------------------------------
+#6
+#select * from Person
+insert into
+   Person
+values
+    (
+        1111,
+        'Aryaman Kolhe',
+        6677,
+        9889360562,
+        '2000-08-09',
+        22,
+        'Male'
+    ),
+    (
+        1112,
+        'Vrinda Agarwal',
+        8899,
+        8874577777,
+        '2002-10-07',
+        20,
+        'Female'
+    ),
+    (
+        1113,
+        'Prakhar Jain',
+        9987,
+        7007905500,
+        '2001-12-10',
+        21,
+        'Male'
+    ),
+    (
+        1114,
+        'Kunal Bhosikar',
+        9986,
+        7007123232,
+        '1999-09-17',
+        23,
+        'Male'
+    ),
+    (
+        1115,
+        'Bhumika Joshi',
+        0967,
+        9305512623,
+        '2004-10-07',
+        18,
+        'Female'
+    ),
+    (
+        1116,
+        'Ashwini Kulkarni',
+        6734,
+        9979997980,
+        '2002-09-30',
+        20,
+        'Female'
+    ),
+    (
+        1117,
+        'Ashani Pandey',
+        6756,
+        9889360567,
+        '1997-08-08',
+        25,
+        'Female'
+    ),
+    (
+        1118,
+        'Faizal Karim',
+        8974,
+        7007123456,
+        '1979-07-07',
+        43,
+        'Male'
+    ),
+    (
+        1119,
+        'Eshan Gupta',
+        6720,
+        9889360569,
+        '1999-09-09',
+        23,
+        'Male'
+    ),
+    (
+        1120,
+        'Mahika Jain',
+        7820,
+        93055126908,
+        '2004-10-10',
+        18,
+        'Female'
+    ),
+    (
+        1121,
+        'Sannidhya Gupta',
+        9089,
+        9009876523,
+        '2003-11-09',
+        19,
+        'Male'
+    );
+
+------------------------------------------------------------------
+#7
+#select * from Educational_Institutes
+insert into
+    Educational_Institutes
+values
+    (2006, 'MIT', 'University'),
+    (2002, 'GD Goenka Public School', 'School'),
+    (2003, 'IITB', 'University'),
+    (2004, 'IITD', 'University'),
+    (2005, 'DPS', 'School'),
+    (2001, 'IIITH', 'University'),
+    (2007, 'VIT', 'University'),
+    (2008, 'DAV', 'School'),
+    (2009, 'Kunskapskolan', 'School'),
+    (2010, 'Stanford', 'University');
+
+--------------------------------------------------------------------
+#8
+#select * from Courses
+insert into
+    Courses
+values
+    (301, 'Intro to Programming'),
+    (302, 'Digital Systems And Microcontrollers'),
+    (303, 'Intro to Stochastic Processes'),
+    (304, 'Data And Applications'),
+    (305, 'Algorithm Analysis and Design'),
+    (306, 'Principles Of Programming Languages'),
+    (307, 'Intro to NLP'),
+    (308, 'Intro to Human Sciences'),
+    (309, 'Advanced NLP'),
+    (310, 'Intro to Blockchain'),
+    (311, 'Intro to Machine Learning'),
+    (312, 'Intro to Artificial Intelligence'),
+    (313, 'Data Science and Applications'),
+    (314, 'Distributed Systems'),
+    (315, 'Intro to Game Theory'),
+    (316, 'Computer Vision'),
+    (317, 'Intro to Software Systems'),
+    (318, 'Signal Processing'),
+    (319, 'Computational Linguistics'),
+    (320, 'Intro to Computational Social Science'),
+    (321, 'Intro to Quantum Computing');
+
+------------------------------------------------------------
+#9
+#select * from Institute_Offers
+insert into
+    Institute_Offers
+values
+    (2001, 301),
+    (2001, 320),
+    (2002, 302),
+    (2002, 319),
+    (2003, 303),
+    (2003, 318),
+    (2004, 304),
+    (2004, 317),
+    (2005, 305),
+    (2005, 316),
+    (2006, 306),
+    (2006, 315),
+    (2007, 307),
+    (2007, 314),
+    (2008, 308),
+    (2008, 313),
+    (2009, 309),
+    (2009, 312),
+    (2010, 310),
+    (2010, 311),
+    (2006, 321);
+
+------------------------------------------------------------------
+#10
+#select * from Department
+insert into
+    Department
+values
+    (1, 'Language Department'),
+    (2, 'Electronics Department'),
+    (3, 'Computer Science Department'),
+    (4, 'Mathematics Department'),
+    (5, 'Human Science Department'),
+    (6, 'Quantum Department');
+
+---------------------------------------------------------------
+#11
+#select * from Contains_Department
+
+insert into
+    Contains_Department
+values
+    (2001, 3),
+    (2001, 5),
+    (2002, 1),
+    (2002, 2),
+    (2003, 2),
+    (2003, 4),
+    (2004, 3),
+    (2005, 3),
+    (2006, 3),
+    (2006, 6),
+    (2007, 1),
+    (2007, 3),
+    (2008, 3),
+    (2008, 5),
+    (2009, 1),
+    (2009, 3),
+    (2010, 3);
+
+--------------------------------------------------------------------
+#12
+#select * from Educational_Qualifications
+insert into 
+    Educational_Qualifications
+values
+    (1111, 2007, 'In Computer Science', 9.8, 'Bachelors'),
+    (1112, 2010, 'In Electronics', 9.9, 'Bachelors'),
+    (1113, 2006, 'In Computer Science', 7.8, 'Masters'),
+    (1114, 2003, 'In Robotics', 8.9, 'Bachelors'),
+    (1115, 2004, 'In Computer Vision', 8.5, 'Masters'),
+    (1116, 2001, 'In Machine Learning', 9.0, 'PhD'),
+    (1117, 2007, 'In Artificial Intelligence', 9.5, 'PhD'),
+    (1118, 2008, 'In Science', 9.4, 'Senior Secondary'),
+    (1119, 2005, 'In Science', 9.6, 'Senior Secondary'),
+    (
+        1120,
+        2001,
+        'In Electronics and Telecommunication',
+        9.4,
+        'Bachelors'
+    ),
+    (1121, 2005, 'In Science', 9.7, 'Senior Secondary');
+
+----------------------------------------------------------------------------------
+
+#13
+#select * from Institute_Departments
+insert into
+    Institute_Departments
+VALUES
+    (13, 'Machine Learning Department', 3),
+    (3, 'Quantum Department', 9),
+    (6, 'Development Department', 4),
+    (7, 'Development Department', 6),
+    (8, 'Development Department', 7),
+    (12, 'Data Science Department', 12);
+----------------------------------------------------------------------------------
+#14
+
+#select * from Minimum_Job_Requirements
+
+insert into
+    Minimum_Job_Requirements
+values
+    (4001, 2, 'Bachelors',4.8),
+    (4002, 1, 'Masters',7.7),
+    (4003, 5, 'Masters',7.5),
+    (4004, 2, 'PhD',5.5);
+
+#(null, 1, 'PhD'),
+#(null, 6, 'Bachelors'),
+#(null, 6, 'Masters'),
+#(null, 6, 'PhD');
+
+----------------------------------------------------------------------------------------------------
+
+#15 1111 - 1121
+#desc work_experience
+
+# add number of years
+#select * from Work_Experience
+insert into
+    Work_Experience
+values
+    (1111, 4001,3),
+    #(1112, 2),
+    (1113, 4002,2),
+    #(1114, 2),
+    (1115, 4003,6),
+    (1116, 4004,3);
+    #(1117, 3),
+    #(1118, 10),
+    #(1119, 2),
+    #(1120, 2),
+    #(1121, 1);
+
+--------------------------------------------------------------------------------------------------------------------
+
+#16
+#select * from References_
+insert into
+    References_
+values
+    (1111, 6, 4001),
+    (1113, 12, 4002),
+    (1115, 3, 4003),
+    (1116, 9, 4004);
+
+-- (1115, NULL, NULL),
+-- (1116, NULL, NULL),
+-- (1117, NULL, NULL),
+-- (1118, NULL, NULL),
+-- (1119, NULL, NULL),
+-- (1120, NULL, NULL),
+-- (1121, NULL, NULL);
+
+---------------------------------------------------------------------------------------------------
+
+#17 nuked
+
+----------------------------------------------------------------------------------
+
+#18
+#select * from Associated_With
+insert into
+    Associated_With
+values
+    (1111, 6, 4001, 4),
+    #(1112, NULL, NULL, NULL),
+    (1113, 12, 4002, 12),
+    #(1114, NULL, NULL, NULL),
+    (1115, 3, 4003, 9),
+    (1116, 9, 4004, 8);
+
+#(1117, NULL, NULL, NULL),
+#(1118, NULL, NULL, NULL),
+#(1119, NULL, NULL, NULL),
+#(1120, NULL, NULL, NULL),
+#(1121, NULL, NULL, NULL);
+--------------------------------------------------------------------------------------------------------
+utilities
